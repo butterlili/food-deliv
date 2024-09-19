@@ -1,0 +1,134 @@
+.promo{
+    background-color: #950f23;
+    border-radius: 25px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.promo-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+.promo-title {
+    /* background-color: #ff5722; Orange background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align the text */
+     /*padding: 20px; Add some padding */
+    /*border-radius: 8px; /* Rounded corners */
+    /*box-shadow: 0 4px 8px rgba(235, 227, 227, 0.2);  Shadow effect for a pop-out effect */
+    /* max-width: 80%; Set a maximum width */
+    margin: 40px auto; /* Center the promo title on the page with auto margin */
+}
+.promo-content-left {
+    flex: 1;
+    padding-right: 25px;
+    justify-content: space-between;
+}
+.promo-content-left p{
+    color: antiquewhite;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.promo-content-left img{
+    width: 250px;
+    height: 250px;
+    border-radius: 120px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 4px rgba(10, 4, 4, 0.671);
+}
+.promo-content-left h3{
+        color: antiquewhite;
+        font-size: 20px;
+        margin-bottom: 10px;
+}
+.promo-content-right{
+    flex: 1;
+}
+.promo-item{
+    display: flex;
+    align-items: center;
+    background-color: #950f23;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px dashed whitesmoke;
+    border-radius: 20px ;
+    color: whitesmoke;
+    box-shadow: 0 5px 4px rgba(10, 4, 4, 0.671);
+}
+
+.promo-item:hover {
+    background-color: #fff;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #2f3e2e;
+}
+.promo-item img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.promo-item-info{
+    flex: 1;
+}
+.promo-item-info h4 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.promo-item-info p{
+    font-size: 12px; 
+}
+.order-now {
+    background-color: #950f23;
+    color: #fff;
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.order-now:hover {
+    background-color: #1d1c1c;
+    color: whitesmoke;
+}
+.order-now :active{
+    background-color: #1d1c1c;
+    color: whitesmoke;
+}
+
+@media (max-width:1050px){
+    .promo-content{
+        max-width: 65%;
+    } 
+    .promo-item p {
+        display: none;
+    }
+    .promo-content-left h3{
+        display: none;
+    }
+    .promo-content-left p {
+        display: none;
+    }
+}
+@media (max-width:750px){
+    .promo{
+        align-items: stretch;
+    }
+    .promo-title{
+        font-size: 13px;
+    }
+    .promo-content{
+        max-width: 40%;
+    }
+    .promo-content-left{
+        display: none;
+    }
+    .promo-item{
+        max-width: auto;
+    }
+    .promo-item img{
+        max-width: 100px;
+    }
+}
