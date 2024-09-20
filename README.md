@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # food-delivery
 
 ## Description
@@ -47,3 +48,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 Contact Information
 email: saint.souveraine@gmail.com
+=======
+# foodorder
+>>>>>>> 7340014f2d5225f2d89320e556232b23e7a6bfc9
