@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# food-delivery
+
 
 ## Description
 > This project is a responsive food ordering app, allowing users to browse menus, add items to their cart, and make online orders. It supports user authentication, cart management, and API-driven dynamic content with minimal set-up.
@@ -49,5 +48,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 Contact Information
 email: saint.souveraine@gmail.com
 =======
-# foodorder
->>>>>>> 7340014f2d5225f2d89320e556232b23e7a6bfc9
+
